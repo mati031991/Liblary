@@ -10,15 +10,15 @@ namespace TestProject
 
         public int Id { get; set; }
 
-        string Publisher { get; set; }
+        public string Publisher { get; set; }
 
-        int PublisherYear { get; set; }
+        public int PublisherYear { get; set; }
 
         public Position()
         {
 
         }
-        public Position(string title, int id, string publisher, string publisherYear)
+        public Position(string title, int id, string publisher, int publisherYear)
         {
             this.Title = title;
             this.Id = id;
