@@ -7,10 +7,11 @@ namespace TestProject
     public class Book : Position
     {
         private int _page_numbers;
+        private List<Autor> autors;
 
         public Book()
         {
-
+            autors = new List<Autor>();
         }
         public Book(string title, int id, string publisher, int publisherYear, int page_numbers)
         {
@@ -19,6 +20,14 @@ namespace TestProject
             this.Publisher = publisher;
             this.PublisherYear = publisherYear;
             this._page_numbers = page_numbers;
+        }
+
+        public void AddAutor(Autor autor)
+        {
+            if (autor!=null)
+            {
+                autors.Add(autor);
+            }
         }
 
         public override void DisplayInfo()
