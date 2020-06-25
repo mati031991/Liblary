@@ -43,6 +43,11 @@ namespace TestProject
             }
             return findList;
         }
+        /// <summary>
+        /// Find position by title
+        /// </summary>
+        /// <param name="title"></param>
+        /// <returns></returns>
         public List<Position> FindPosition(string title)
         {
             var findList = new List<Position>();
