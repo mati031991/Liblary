@@ -22,12 +22,13 @@ namespace TestProject
             this._page_numbers = page_numbers;
         }
 
-        public void AddAutor(Autor autor)
+        public List<Autor> AddAutor(Autor autor)
         {
             if (autor!=null)
             {
                 autors.Add(autor);
             }
+            return autors;
         }
 
         public override void DisplayInfo()
@@ -36,5 +37,6 @@ namespace TestProject
                 "Tytuł: {0}, Id: {1}, Wydawnictwo: {2}, Rok wydania: {3}, Liczba stron: {4} ", this.Title, this.Id, this.Publisher, this.PublisherYear, this._page_numbers
                 );
         }
+
     }
 }

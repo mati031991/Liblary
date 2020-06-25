@@ -1,0 +1,17 @@
+C:\Users\mateu\source\repos\TestProject\TestProjectTests\bin\Debug\netcoreapp2.1\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\mateu\source\repos\TestProject\TestProjectTests\bin\Debug\netcoreapp2.1\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\mateu\source\repos\TestProject\TestProjectTests\bin\Debug\netcoreapp2.1\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\mateu\source\repos\TestProject\TestProjectTests\bin\Debug\netcoreapp2.1\TestProjectTests.deps.json
+C:\Users\mateu\source\repos\TestProject\TestProjectTests\bin\Debug\netcoreapp2.1\TestProjectTests.runtimeconfig.json
+C:\Users\mateu\source\repos\TestProject\TestProjectTests\bin\Debug\netcoreapp2.1\TestProjectTests.runtimeconfig.dev.json
+C:\Users\mateu\source\repos\TestProject\TestProjectTests\bin\Debug\netcoreapp2.1\TestProjectTests.dll
+C:\Users\mateu\source\repos\TestProject\TestProjectTests\bin\Debug\netcoreapp2.1\TestProjectTests.pdb
+C:\Users\mateu\source\repos\TestProject\TestProjectTests\bin\Debug\netcoreapp2.1\TestProject.dll
+C:\Users\mateu\source\repos\TestProject\TestProjectTests\bin\Debug\netcoreapp2.1\TestProject.pdb
+C:\Users\mateu\source\repos\TestProject\TestProjectTests\obj\Debug\netcoreapp2.1\TestProjectTests.csprojAssemblyReference.cache
+C:\Users\mateu\source\repos\TestProject\TestProjectTests\obj\Debug\netcoreapp2.1\TestProjectTests.csproj.CoreCompileInputs.cache
+C:\Users\mateu\source\repos\TestProject\TestProjectTests\obj\Debug\netcoreapp2.1\TestProjectTests.AssemblyInfoInputs.cache
+C:\Users\mateu\source\repos\TestProject\TestProjectTests\obj\Debug\netcoreapp2.1\TestProjectTests.AssemblyInfo.cs
+C:\Users\mateu\source\repos\TestProject\TestProjectTests\obj\Debug\netcoreapp2.1\TestProjectTests.csproj.CopyComplete
+C:\Users\mateu\source\repos\TestProject\TestProjectTests\obj\Debug\netcoreapp2.1\TestProjectTests.dll
+C:\Users\mateu\source\repos\TestProject\TestProjectTests\obj\Debug\netcoreapp2.1\TestProjectTests.pdb
