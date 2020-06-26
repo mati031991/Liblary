@@ -11,7 +11,7 @@ namespace TestProject
 
         public Book()
         {
-            autors = new List<Autor>();
+            autors = new List<Autor>(); 
         }
         public Book(string title, int id, string publisher, int publisherYear, int page_numbers)
         {
