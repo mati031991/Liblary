@@ -5,7 +5,6 @@ C:\Users\mateu\source\repos\TestProject\.vs\TestProject\lut\0\b\TestProjectTests
 C:\Users\mateu\source\repos\TestProject\.vs\TestProject\lut\0\b\TestProjectTests\Debug\netcoreapp2.1\TestProjectTests.runtimeconfig.json
 C:\Users\mateu\source\repos\TestProject\.vs\TestProject\lut\0\b\TestProjectTests\Debug\netcoreapp2.1\TestProjectTests.runtimeconfig.dev.json
 C:\Users\mateu\source\repos\TestProject\.vs\TestProject\lut\0\b\TestProjectTests\Debug\netcoreapp2.1\TestProjectTests.dll
-C:\Users\mateu\source\repos\TestProject\.vs\TestProject\lut\0\i\TestProjectTests\Debug\netcoreapp2.1\TestProjectTests.csprojAssemblyReference.cache
 C:\Users\mateu\source\repos\TestProject\.vs\TestProject\lut\0\i\TestProjectTests\Debug\netcoreapp2.1\TestProjectTests.csproj.CoreCompileInputs.cache
 C:\Users\mateu\source\repos\TestProject\.vs\TestProject\lut\0\i\TestProjectTests\Debug\netcoreapp2.1\TestProjectTests.AssemblyInfoInputs.cache
 C:\Users\mateu\source\repos\TestProject\.vs\TestProject\lut\0\i\TestProjectTests\Debug\netcoreapp2.1\TestProjectTests.AssemblyInfo.cs

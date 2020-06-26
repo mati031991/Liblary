@@ -20,6 +20,7 @@ namespace TestProject
             this.Publisher = publisher;
             this.PublisherYear = publisherYear;
             this._page_numbers = page_numbers;
+            autors = new List<Autor>();
         }
 
         public List<Autor> AddAutor(Autor autor)

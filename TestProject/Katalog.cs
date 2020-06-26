@@ -15,6 +15,7 @@ namespace TestProject
         public Katalog(string thematicDepartmant)
         {
             this._thematicDepartmant = thematicDepartmant;
+            Positions = new List<Position>();
         }
         public void AddPosition(Position position)
         {
