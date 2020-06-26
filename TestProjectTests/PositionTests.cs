@@ -4,7 +4,7 @@ using TestProject;
 namespace TestProjectTests
 {
     [TestClass]
-    class PositionTests
+    public class PositionTests
     {
         [TestMethod]
         public void AddPosition()
