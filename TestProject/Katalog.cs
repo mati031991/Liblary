@@ -4,7 +4,7 @@ using System.Text;
 
 namespace TestProject
 {
-    class Katalog
+    public class Katalog
     {
         private string _thematicDepartmant;
         public List<Position> Positions;
