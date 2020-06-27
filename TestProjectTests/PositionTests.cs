@@ -12,7 +12,7 @@ namespace TestProjectTests
         {
             //Arrange
             Position position1 = new Book("Book1", 1, "Publisher1", 2020, 150);
-            Katalog katalog = new Katalog();
+            Catalog katalog = new Catalog();
 
             //Act
             katalog.AddPosition(position1);
@@ -23,8 +23,8 @@ namespace TestProjectTests
         public void AllPositions()
         {
             //Arrange
-            Autor autor1 = new Autor("Sławomir", "Mrożek");
-            Autor autor2 = new Autor("Jan", "Testowy");
+            Autor autor1 = new Autor("Sławomir", "Mrożek","Poland");
+            Autor autor2 = new Autor("Jan", "Testowy","Poland");
 
             Book book1 = new Book("Book1", 1, "Publisher1", 2020, 150);
             book1.AddAutor(autor1);
@@ -38,7 +38,7 @@ namespace TestProjectTests
             list.Add(journal1);
             list.Add(journal2);
 
-            Katalog katalog = new Katalog();
+            Catalog katalog = new Catalog();
 
             //Act
             katalog.AddPosition(book1);

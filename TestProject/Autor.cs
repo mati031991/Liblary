@@ -1,22 +1,18 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace TestProject
+﻿namespace TestProject
 {
-    public class Autor
+    public class Autor : Person
     {
-        private string _forname;
-        private string _name;
+        private string _nationality;
 
         public Autor()
         {
 
         }
-        public Autor(string forname, string name)
+        public Autor(string forname, string name, string nationality)
         {
-            _forname = forname;
-            _name = name;
+            Foranme = forname;
+            Name = name;
+            this._nationality = nationality;
         }
     }
 }

@@ -2,8 +2,8 @@
 {
     public class Person
     {
-        public string Foranme { get; private set; }
-        public string Name { get; private set; }
+        public string Foranme { get;  set; }
+        public string Name { get; set; }
 
         public Person()
         {

@@ -11,7 +11,7 @@ namespace TestProjectTests
         public void AddNewAutorToListTest()
         {
             //Arrange
-            Autor Autor = new Autor("Juliusz", "S³owacki");
+            Autor Autor = new Autor("Juliusz", "S³owacki","Poland");
             List<Autor> list1 = new List<Autor>();
             list1.Add(Autor);
             Book Book = new Book();
