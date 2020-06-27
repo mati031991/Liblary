@@ -10,3 +10,4 @@ C:\Users\mateu\source\repos\TestProject\.vs\TestProject\lut\0\i\TestProjectTests
 C:\Users\mateu\source\repos\TestProject\.vs\TestProject\lut\0\i\TestProjectTests\Debug\netcoreapp2.1\TestProjectTests.AssemblyInfo.cs
 C:\Users\mateu\source\repos\TestProject\.vs\TestProject\lut\0\i\TestProjectTests\Debug\netcoreapp2.1\TestProjectTests.csproj.CopyComplete
 C:\Users\mateu\source\repos\TestProject\.vs\TestProject\lut\0\i\TestProjectTests\Debug\netcoreapp2.1\TestProjectTests.dll
+C:\Users\mateu\source\repos\TestProject\.vs\TestProject\lut\0\i\TestProjectTests\Debug\netcoreapp2.1\TestProjectTests.csprojAssemblyReference.cache
