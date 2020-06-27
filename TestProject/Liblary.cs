@@ -61,17 +61,35 @@ namespace TestProject
 
         public List<Position> FindPositionsByTitle(string title)
         {
-            throw new NotImplementedException();
+            List<Position> positions = new List<Position>();
+            foreach (var item in this.positions)
+            {
+                if (item.Title == title)
+                {
+                    positions.Add(item);
+                }
+            }
+            return positions;
         }
 
         public List<Position> FindPositionsById(int id)
         {
-            throw new NotImplementedException();
+            List<Position> positions = new List<Position>();
+            foreach (var item in this.positions)
+            {
+                if (item.Id == id)
+                {
+                    positions.Add(item);
+                }
+            }
+            return positions;
         }
 
         public void DisplayAllPositions()
         {
-            throw new NotImplementedException();
+            Console.WriteLine(
+                "Costam"
+                );
         }
     }
 }
