@@ -9,9 +9,8 @@ namespace TestProjectTests
         [TestMethod]
         public void SetPerson()
         {
-            //Arrange
+            //Arrange and Act
             Person person1 = new Person("Anna", "Maria");
-            //Act
 
             //Assert
             Assert.AreEqual("Anna", person1.Foranme);

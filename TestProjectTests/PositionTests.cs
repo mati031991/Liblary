@@ -23,8 +23,8 @@ namespace TestProjectTests
         public void AllPositions()
         {
             //Arrange
-            Autor autor1 = new Autor("Sławomir", "Mrożek","Poland");
-            Autor autor2 = new Autor("Jan", "Testowy","Poland");
+            Autor autor1 = new Autor("Sławomir", "Mrożek", "Poland");
+            Autor autor2 = new Autor("Jan", "Testowy", "Poland");
 
             Book book1 = new Book("Book1", 1, "Publisher1", 2020, 150);
             book1.AddAutor(autor1);
@@ -46,10 +46,12 @@ namespace TestProjectTests
             katalog.AddPosition(journal1);
             katalog.AddPosition(journal2);
             var result = katalog.FindPositionsByTitle("Book2");
+            var result2 = katalog.FindPositionsById(2);
 
             //Assert
             CollectionAssert.AreEqual(katalog.Positions, list);
             Assert.IsNotNull(result);
+            Assert.IsNotNull(result2);
         }
     }
 }

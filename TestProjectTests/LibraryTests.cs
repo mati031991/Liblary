@@ -13,7 +13,7 @@ namespace TestProjectTests
         {
 
             //Act
-            bool result = liblary.Addlibrarian(librarian);
+            bool result = liblary.AddLibrarian(librarian);
 
             //Assert
             Assert.IsTrue(result);

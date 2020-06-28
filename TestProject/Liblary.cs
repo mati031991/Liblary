@@ -24,7 +24,7 @@ namespace TestProject
             catalogs = new List<Catalog>();
             positions = new List<Position>();
         }
-        public bool Addlibrarian(Librarian librarian)
+        public bool AddLibrarian(Librarian librarian)
         {
             if (librarian != null)
             {
