@@ -30,6 +30,7 @@ namespace TestProjectTests
             //Assert
             Assert.IsTrue(result);
         }
+        [TestMethod]
         public void AddPosition()
         {
             //Arrange
