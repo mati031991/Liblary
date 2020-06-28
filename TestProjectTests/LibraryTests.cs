@@ -38,7 +38,6 @@ namespace TestProjectTests
             Position position = new Book("title1", 45, "publisher12", 2005, 45);
             //Act
             Catalog result = liblary.AddPosition(position, thematicDepartment);
-
             //Assert
             Assert.IsNotNull(result);
         }
