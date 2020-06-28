@@ -2,7 +2,7 @@
 
 namespace TestProject
 {
-    public class Catalog: IPositionsMenagment
+    public class Catalog : IPositionsMenagment
     {
         private string _thematicDepartmant;
         public List<Position> Positions;
@@ -27,47 +27,39 @@ namespace TestProject
             }
         }
         /// <summary>
-        /// Find position by id
-        /// </summary>
-        /// <param name="id"></param>
-        public List<Position> FindPosition(int id)
-        {
-            var findList = new List<Position>();
-            foreach (var item in Positions)
-            {
-                if (item.Id == id)
-                {
-                    findList.Add(item);
-                }
-            }
-            return findList;
-        }
-        /// <summary>
         /// Find position by title
         /// </summary>
         /// <param name="title"></param>
-        /// <returns></returns>
-        public List<Position> FindPosition(string title)
+       
+        public List<Position> FindPositionsByTitle(string title)
         {
-            var findList = new List<Position>();
+            List<Position> position = new List<Position>();
             foreach (var item in Positions)
             {
                 if (item.Title == title)
                 {
-                    findList.Add(item);
+                    position.Add(item);
                 }
             }
-            return findList;
+            return position;
         }
 
-        public List<Position> FindPositionsByTitle(string title)
-        {
-            throw new System.NotImplementedException();
-        }
-
+        /// <summary>
+        /// Find position by id
+        /// </summary>
+        /// <param name="id"></param>
+        /// <returns></returns>
         public List<Position> FindPositionsById(int id)
         {
-            throw new System.NotImplementedException();
+            List<Position> position = new List<Position>();
+            foreach (var item in Positions)
+            {
+                if (item.Id == id)
+                {
+                    position.Add(item);
+                }
+            }
+            return position;
         }
     }
 }

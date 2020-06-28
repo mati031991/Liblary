@@ -45,7 +45,7 @@ namespace TestProjectTests
             katalog.AddPosition(book2);
             katalog.AddPosition(journal1);
             katalog.AddPosition(journal2);
-            var result = katalog.FindPosition("Book2");
+            var result = katalog.FindPositionsByTitle("Book2");
 
             //Assert
             CollectionAssert.AreEqual(katalog.Positions, list);

@@ -15,12 +15,14 @@ namespace TestProject
         {
             librarians = new List<Librarian>();
             catalogs = new List<Catalog>();
+            positions = new List<Position>();
         }
         public Liblary(string addres)
         {
             this._addres = addres;
             librarians = new List<Librarian>();
             catalogs = new List<Catalog>();
+            positions = new List<Position>();
         }
         public bool Addlibrarian(Librarian librarian)
         {
@@ -87,9 +89,11 @@ namespace TestProject
 
         public void DisplayAllPositions()
         {
-            Console.WriteLine(
-                "Costam"
-                );
+            foreach (var item in positions)
+            {
+                Console.WriteLine("Biblioteka Adres: {0}", _addres);
+                item.DisplayInfo();
+            }
         }
     }
 }
