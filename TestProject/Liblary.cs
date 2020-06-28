@@ -48,16 +48,18 @@ namespace TestProject
                 return false;
             }
         }
-        public bool AddPosition(Position p, string thematicDepartment)
+        public Catalog AddPosition(Position p, string thematicDepartment)
         {
+            Catalog catalog;
             if (p != null)
             {
-                positions.Add(p);
-                return true;
+                catalog = new Catalog(thematicDepartment);
+                catalog.AddPosition(p);
+                return catalog;
             }
             else
             {
-                return false;
+                return null;
             }
         }
 

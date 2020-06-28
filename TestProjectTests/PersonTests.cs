@@ -4,7 +4,7 @@ using TestProject;
 namespace TestProjectTests
 {
     [TestClass]
-    public class PersonTest
+    public class PersonTests
     {
         [TestMethod]
         public void SetPerson()

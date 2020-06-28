@@ -5,7 +5,7 @@ using TestProject;
 namespace TestProjectTests
 {
     [TestClass]
-    public class UnitTestAutor
+    public class AutorTests
     {
         [TestMethod]
         public void AddNewAutorToListTest()
